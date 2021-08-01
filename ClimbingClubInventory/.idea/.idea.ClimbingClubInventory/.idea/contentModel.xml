@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\feldmawa\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\feldmawa\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ClimbingClubInventory.1602880652.00" t="ExcludeRecursive" />
+    <e p="C:\Users\feldmawa\Documents\programmingStuff\ClimbingStuff\ClimbingClubInventory" t="IncludeFlat">
+      <e p="ClimbingClubInventory.dbup" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClimbingClubInventory.dbup.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ClimbingClubInventory.dbup.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="01 - Category.sql" t="Include" />
+          <e p="02 - Item.sql" t="Include" />
+          <e p="03 - User.sql" t="Include" />
+          <e p="04 - ItemSize.sql" t="Include" />
+          <e p="05 - Rental.sql" t="Include" />
+          <e p="06 - RentedItem.sql" t="Include" />
+        </e>
+      </e>
+      <e p="ClimbingClubInventory.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

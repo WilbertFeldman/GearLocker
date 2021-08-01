@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\feldmawa\\Documents\\programmingStuff\\ClimbingStuff\\ClimbingClubInventory\\ClimbingClubInventory.dbup\\ClimbingClubInventory.dbup.csproj",
+    "projectName": "ClimbingClubInventory.dbup",
+    "projectPath": "C:\\Users\\feldmawa\\Documents\\programmingStuff\\ClimbingStuff\\ClimbingClubInventory\\ClimbingClubInventory.dbup\\ClimbingClubInventory.dbup.csproj",
+    "outputPath": "C:\\Users\\feldmawa\\Documents\\programmingStuff\\ClimbingStuff\\ClimbingClubInventory\\ClimbingClubInventory.dbup\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "Npgsql": {
+          "target": "Package",
+          "version": "[5.0.7, )"
+        },
+        "dbup-core": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "dbup-postgresql": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

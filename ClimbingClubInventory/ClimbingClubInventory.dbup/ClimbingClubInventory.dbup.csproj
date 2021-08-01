@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-core" Version="4.5.0" />
+    <PackageReference Include="dbup-postgresql" Version="4.5.0" />
+    <PackageReference Include="Npgsql" Version="5.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\Item.sql" />
+    <EmbeddedResource Include="Scripts\02 - Item.sql" />
+    <None Remove="Scripts\01 - Category.sql" />
+    <EmbeddedResource Include="Scripts\01 - Category.sql" />
+    <None Remove="Scripts\06 - RentedItem.sql" />
+    <EmbeddedResource Include="Scripts\06 - RentedItem.sql" />
+    <None Remove="Scripts\05 - Rental.sql" />
+    <EmbeddedResource Include="Scripts\05 - Rental.sql" />
+    <None Remove="Scripts\03 - User.sql" />
+    <EmbeddedResource Include="Scripts\03 - User.sql" />
+    <None Remove="Scripts\04 - ItemSize.sql" />
+    <EmbeddedResource Include="Scripts\04 - ItemSize.sql" />
+  </ItemGroup>
+
+</Project>
